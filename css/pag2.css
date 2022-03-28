@@ -17,7 +17,10 @@ h1{
         list-style-type:none ;
     }
     
-
+.enlace{
+    display: flex;
+    flex-direction: column;
+}
 .colorcito{
     font-size: 23px;
     text-align: center;
@@ -34,6 +37,15 @@ background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15
     margin-top: 15px;
     margin-bottom: 50px;
     
+}
+.articulo{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.articulo--titulo{
+    padding-top: 10px;
 }
 .animate__animated.animate__rubberBand {
     --animate-duration: 2s;
@@ -53,10 +65,7 @@ list-style-type: square;
 .cosas{
     font-style: italic;
 }
-footer{
-    background-color: grey;
-    
-}
+
 img{
     display:block;
     margin:auto;
@@ -98,12 +107,15 @@ background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 
       
         border-style: groove;
     }
-    footer{
-        background-color: grey;
-      
-    }
+   
     .header{
        
         display: flex;
         flex-direction: column;
     }
+    .colorcito{
+        font-size: 23px;
+        text-align: center;
+        display: none;
+    
+        }
