@@ -30,7 +30,20 @@ h1{
 .em{
     text-align: end;
 }
- 
+
+.enlaceNoticia:link{
+    color: black;
+    text-decoration: none;
+}
+.enlaceNoticia:visited{
+    color: black;
+    
+}
+.enlaceNoticia:hover{
+    color: rgb(122, 122, 122);
+    text-decoration:underline;
+    
+} 
 .juntito{
         border-style:double ;
         margin-top: 20px;
