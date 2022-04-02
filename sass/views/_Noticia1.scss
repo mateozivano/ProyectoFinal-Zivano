@@ -1,21 +1,21 @@
 h1{
     font-style: oblique; font-size: 100px; color: darkslategrey; text-align:center     
-    }
-    h3{
-        font-style: normal; color:black;
-    }
-    h2{
-        font-family:Verdana, Geneva, Tahoma, sans-serif ;
-        color: rgb(0, 0, 0);
-    }
-    .nav{
-        background-color: antiquewhite;
-    }        
-    .vivo{
-        margin-left: 25px;
-        margin-right: 25px;
-        list-style-type:none ;
-    }
+}
+h3{
+    font-style: normal; color:black;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(0, 0, 0);
+}
+.nav{
+    background-color: antiquewhite;
+}        
+.vivo{
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style-type:none ;
+}
     
 .enlace{
     display: flex;
@@ -26,7 +26,11 @@ h1{
     text-align: center;
     transform: translate(0,20px)
 
-    }
+}
+.columnaHeader{
+    display: flex;
+    flex-direction: column;
+}
 .fondo{
     background: rgb(105,105,105);
 background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15%, rgba(255,254,254,1) 19%, rgba(255,255,255,1) 82%, rgba(161,161,161,1) 88%, rgba(88,88,88,1) 100%);
@@ -57,9 +61,8 @@ li{
     line-height: 20px;
 list-style-type: square;
 }
-.tuki{
+.noti2{
     width: 250px;
-    
     border-style: groove;
 }
 .cosas{
@@ -78,7 +81,6 @@ img{
     flex-direction: row;
 }
 .noti3{
-    
     border-style: groove;
 }
 .col-md-6{
@@ -86,36 +88,34 @@ img{
 }
 .col-md-12{
     background-color:whitesmoke;
-
 }
+    
 @media screen and (max-width: 950px){
-    .fondo{
-        background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 8%, rgba(218,218,218,1) 19%, rgba(158,158,158,1) 42%, rgba(145,145,145,1) 60%, rgba(88,88,88,1) 100%);
+        .fondo{
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 8%, rgba(218,218,218,1) 19%, rgba(158,158,158,1) 42%, rgba(145,145,145,1) 60%, rgba(88,88,88,1) 100%);
+           
+        }
+        .titulin{
+            border-style:groove ;
+    
+           
+        }
+        .tuki{
+            
+            border-style: groove;
+        }
+        .noti3{
+          
+            border-style: groove;
+        }
        
-    }
-    .titulin{
-        border-style:groove ;
-
-       
-    }
-    .tuki{
-        
-        border-style: groove;
-    }
-    .noti3{
-      
-        border-style: groove;
-    }
-   
     .header{
-       
         display: flex;
         flex-direction: column;
     }
     .colorcito{
-        font-size: 23px;
-        text-align: center;
-        display: none;
-    
-        }
+    font-size: 23px;
+    text-align: center;
+    display: none;}
+}

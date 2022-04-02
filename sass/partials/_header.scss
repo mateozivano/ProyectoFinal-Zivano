@@ -1,0 +1,19 @@
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    .colorcito{
+        font-size: 23px;
+        text-align: center;
+        transform: translate(0,20px)
+    }
+}
+@media screen and (max-width: 950px){
+    .colorcito{
+        display: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}
