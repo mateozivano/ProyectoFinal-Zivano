@@ -1,22 +1,40 @@
+$estilos:(
+    cursiva:italic,
+    letra1:Georgia,
+    letra2:Arial,
+    centrar:justify,
+    tamaño1:3rem,
+    oblicua:oblique,
+); 
+
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+.imgDelMes{
+    @include sizes(205px,136px);
+}
 h1{
-    font-style: oblique; font-size: 100px; color: darkslategrey; text-align:center;
+    font-style: map-get($map: $estilos, $key:oblicua); font-size: 100px; color: darkslategrey; text-align:center;
     
     }
     
 h2{
     font-style: normal; color: rgb(140, 172, 214);
 }
-.imagenes{
-    height:170px ;
-    width: 256px;
-}
-.imgDelMes{
-    height:136px ;
-    width: 205px;
-}
+
+
 .cosas{
-    font-style: italic;
+    font-style: map-get($map: $estilos, $key:cursiva);
 }
+.orden--cosas{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.orden--mes{
+    @extend .orden--cosas
+}
+
 .logo{
     display:block;
     margin:auto;
@@ -77,11 +95,11 @@ background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15
 }
 .noti2{
     
-    border-style: groove;
+    @extend .noti1;
 }
 .noti3{
     
-    border-style: groove;
+    @extend .noti1;
 }
 .col-md-3{
     background-color: white;
@@ -105,11 +123,11 @@ background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15
     }
     .noti2{
         
-        border-style: groove;
+        @extend .noti1;
     }
     .noti3{
        
-        border-style: groove;
+        @extend .noti1;
     }
  
 }

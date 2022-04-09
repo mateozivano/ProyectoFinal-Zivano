@@ -37,6 +37,10 @@ h2 {
 .cosas {
   font-style: italic; }
 
+.orden--cosas, .orden--mes {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
 .logo {
   display: block;
   margin: auto;
@@ -161,10 +165,13 @@ h2 {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 15px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: Georgia; }
 
 .articulo--titulo {
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 3rem; }
 
 .animate__animated.animate__rubberBand {
   --animate-duration: 2s;
@@ -221,6 +228,6 @@ img {
   border-style: groove;
   background-color: white; }
 
-.animate__animated.animate__rubberBand {
+.animate__animated.animate__fadeIn {
   --animate-duration: 2s;
-  --animate-delay: 0.9s; }
+  --animate-delay: 1.2s; }

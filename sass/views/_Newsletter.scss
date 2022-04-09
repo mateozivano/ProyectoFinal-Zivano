@@ -1,4 +1,4 @@
 .border--form{
-    border-style:groove;
+    @extend .noti1;
     background-color: white;
 }
