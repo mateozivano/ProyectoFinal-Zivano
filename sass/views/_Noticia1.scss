@@ -79,6 +79,10 @@ list-style-type: square;
 }
 .cosas{
     font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 img{
@@ -108,20 +112,7 @@ img{
             background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 8%, rgba(218,218,218,1) 19%, rgba(158,158,158,1) 42%, rgba(145,145,145,1) 60%, rgba(88,88,88,1) 100%);
            
         }
-        .titulin{
-            @extend .noti1; ;
-    
-           
-        }
-        .tuki{
-            
-            @extend .noti1;
-        }
-        .noti3{
-          
-            @extend .noti1;
-        }
-       
+        
     .header{
         display: flex;
         flex-direction: column;

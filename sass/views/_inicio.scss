@@ -88,9 +88,14 @@ background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15
 .cuadritos{
     display:inline ;
 }
-
+.imagenes{
+    width: 256px; ;
+    height: 170px;
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+}
 .noti1{
-    
     border-style: groove;
 }
 .noti2{
@@ -117,17 +122,6 @@ background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15
         background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 8%, rgba(218,218,218,1) 19%, rgba(158,158,158,1) 42%, rgba(145,145,145,1) 60%, rgba(88,88,88,1) 100%);
      
     }
-    .noti1{
-        
-        border-style: groove;
-    }
-    .noti2{
-        
-        @extend .noti1;
-    }
-    .noti3{
-       
-        @extend .noti1;
-    }
+
  
 }
