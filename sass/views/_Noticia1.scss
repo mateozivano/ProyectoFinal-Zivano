@@ -16,9 +16,7 @@ h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     color: rgb(0, 0, 0);
 }
-.nav{
-    background-color: antiquewhite;
-}        
+
 .vivo{
     margin-left: 25px;
     margin-right: 25px;
@@ -69,9 +67,9 @@ background: linear-gradient(0deg, rgba(105,105,105,1) 6%, rgba(193,192,192,1) 15
   }
 
 
-li{
+.estiloLista{
     line-height: 20px;
-list-style-type: square;
+    list-style-type: square;
 }
 .noti2{
     width: 250px;

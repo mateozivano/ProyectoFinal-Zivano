@@ -1,5 +1,19 @@
-.footer {
-  text-align: start; }
+footer {
+  background-color: #5c5c5c; }
+
+.footerNav:link {
+  color: white;
+  text-decoration: none; }
+
+.footerNav:visited {
+  color: white; }
+
+.footerNav:hover {
+  color: white;
+  text-decoration: underline; }
+
+.contactoFooter {
+  color: white; }
 
 .header {
   display: flex;
@@ -66,12 +80,6 @@ h2 {
   height: auto;
   display: inline-block; }
 
-li {
-  list-style-type: square; }
-
-.nav {
-  background-color: antiquewhite; }
-
 .vivo {
   margin-left: 25px;
   margin-right: 25px;
@@ -122,9 +130,6 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black; }
 
-.nav {
-  background-color: antiquewhite; }
-
 .vivo {
   margin-left: 25px;
   margin-right: 25px;
@@ -167,7 +172,7 @@ h2 {
   --animate-duration: 2s;
   --animate-delay: 0.9s; }
 
-li {
+.estiloLista {
   line-height: 20px;
   list-style-type: square; }
 
@@ -214,6 +219,16 @@ img {
 .grilla--info {
   background-color: white;
   border-style: groove; }
+
+.fotoInfo {
+  border-style: none; }
+
+.grillaCultura {
+  background-color: white;
+  border-style: groove; }
+  .grillaCultura img {
+    width: 500px;
+    height: 180px; }
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 2s;
