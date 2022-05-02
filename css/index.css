@@ -16,6 +16,7 @@ footer {
   color: white; }
 
 .header {
+  background-color: azure;
   display: flex;
   flex-direction: row; }
   .header .colorcito {
@@ -80,14 +81,16 @@ h2 {
   height: auto;
   display: inline-block; }
 
+.textoNoticia {
+  font-size: 12px; }
+
 .vivo {
   margin-left: 25px;
   margin-right: 25px;
   list-style-type: none; }
 
 .fondo {
-  background: dimgray;
-  background: linear-gradient(0deg, dimgray 6%, #c1c0c0 15%, #fffefe 19%, white 82%, #a1a1a1 88%, #585858 100%); }
+  background-color: white; }
 
 .cuadritos {
   display: inline; }
@@ -110,11 +113,6 @@ h2 {
 
 .col-md-12 {
   background-color: whitesmoke; }
-
-@media screen and (max-width: 950px) {
-  .fondo {
-    background: white;
-    background: radial-gradient(circle, white 3%, white 8%, #dadada 19%, #9e9e9e 42%, #919191 60%, #585858 100%); } }
 
 h1 {
   font-style: oblique;
@@ -147,10 +145,6 @@ h2 {
 .columnaHeader {
   display: flex;
   flex-direction: column; }
-
-.fondo {
-  background: dimgray;
-  background: linear-gradient(0deg, dimgray 6%, #c1c0c0 15%, #fffefe 19%, white 82%, #a1a1a1 88%, #585858 100%); }
 
 .titulin {
   margin-top: 15px;
@@ -202,9 +196,6 @@ img {
   background-color: whitesmoke; }
 
 @media screen and (max-width: 950px) {
-  .fondo {
-    background: white;
-    background: radial-gradient(circle, white 3%, white 8%, #dadada 19%, #9e9e9e 42%, #919191 60%, #585858 100%); }
   .header {
     display: flex;
     flex-direction: column; }
@@ -218,10 +209,18 @@ img {
 
 .grilla--info {
   background-color: white;
-  border-style: groove; }
+  border-style: groove;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
 
 .fotoInfo {
-  border-style: none; }
+  border-style: none;
+  object-fit: contain; }
+
+.fotoLibreria {
+  width: 100%;
+  height: 100%; }
 
 .grillaCultura {
   background-color: white;
